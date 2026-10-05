@@ -1,0 +1,1 @@
+{"name":"mcp-bridge","version":"0.1.0","private":true,"description":"Generic remote MCP gateway for ChatGPT","scripts":{"start":"node index.js"},"engines":{"node":">=20"}}
