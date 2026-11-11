@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN curl -fsSL https://antigravity.google/cli/install.sh | bash \
     && test -x /root/.local/bin/agy
 
-COPY start.sh /start.sh
+COPY start-antigravity.sh /start.sh
 RUN chmod +x /start.sh
 
 EXPOSE 10000
